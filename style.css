@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 0;
+  }
+  
+  #task-manager {
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+    width: 80%;
+    max-width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  #task-form {
+    margin-bottom: 20px;
+  }
+  
+  #task-input {
+    padding: 10px;
+    width: 70%;
+    margin-right: 10px;
+  }
+  
+  #task-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  #task-list li {
+    background: #eee;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  
+  /* Dark theme styles */
+  body.dark-theme {
+    background-color: #333;
+    color: #fff;
+  }
+  
+  .dark-theme #task-manager {
+    background: #222;
+    color: #fff;
+  }
+  
+  .dark-theme #task-list li {
+    background: #444;
+  }
+  span.edit-btn , span.delete-btn{
+    cursor: pointer;
+
+  }
+  #toggle-theme-btn{
+    border: none;
+    margin: auto ;
+    background-color:#f4f4f4;
+  }
+    .dark-theme #toggle-theme-btn{
+    
+    background-color:#333;
+
+  }
+  button{
+    border: none;
+    border-radius: 10px;
+    background: green;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    margin: auto;
+    padding: 10px;
+    font-weight: bold;
+  }
+  button:hover{
+    background-color: rgba(138, 218, 18, 0.767);
+     transition: all 0.3s ease;
+     color: #333;
+  }
